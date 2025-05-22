@@ -27,7 +27,7 @@ int main() {
 
     printf("Insira o Estado: ");
     scanf(" %c", &estado1);
-    printf("Insira o código da cidade: ");
+    printf("Insira o código da carta: ");
     scanf("%s", codigoCarta1);
     printf("Insira o nome da cidade: ");
     scanf(" %[^\n]", nomeCidade1);
@@ -44,7 +44,7 @@ int main() {
     printf(" Carta 2\n");
     printf("Insira o Estado: ");
     scanf(" %c", &estado2);
-    printf("Insira o código da cidade: ");
+    printf("Insira o código da carta: ");
     scanf("%s", codigoCarta2);
     printf("Insira o nome da cidade: ");
     scanf(" %[^\n]", nomeCidade2);
@@ -73,7 +73,7 @@ int main() {
 
     printf(" Carta 1\n");
     printf("Estado: %c\n", estado1);
-    printf("Código da cidade: %s\n", codigoCarta1);
+    printf("Código da carta: %s\n", codigoCarta1);
     printf("Nome da cidade: %s\n", nomeCidade1);
     printf("População: %d\n", populacao1);
     printf("Área: %.2f km²\n", area1);
@@ -85,7 +85,7 @@ int main() {
 
     printf(" Carta 2\n");
     printf("Estado: %c\n", estado2);
-    printf("Código da cidade: %s\n", codigoCarta2);
+    printf("Código da carta: %s\n", codigoCarta2);
     printf("Nome da cidade: %s\n", nomeCidade2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2f km²\n", area2);
