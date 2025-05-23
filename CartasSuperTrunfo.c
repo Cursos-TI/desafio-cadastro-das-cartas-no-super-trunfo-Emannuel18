@@ -63,8 +63,8 @@ int main() {
     densidadePop1 = (float)populacao1 / area1;
     densidadePop2 = (float)populacao2 / area2;
 
-    pibCapita1 = pib1 / populacao1;
-    pibCapita2 = pib2 / populacao2;
+    pibCapita1 = populacao1 / pib1;
+    pibCapita2 = populacao2 / pib2; 
 
     // Exibição dos Dados das Cartas
 
